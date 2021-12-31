@@ -13,6 +13,8 @@
 		25788ADD277EE31800A9EED8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25788ADC277EE31800A9EED8 /* Preview Assets.xcassets */; };
 		25788AE8277EE3A900A9EED8 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25788AE7277EE3A900A9EED8 /* ContentModel.swift */; };
 		25788AEA277EE3B200A9EED8 /* Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25788AE9277EE3B200A9EED8 /* Module.swift */; };
+		25788AED277EE52900A9EED8 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 25788AEB277EE52900A9EED8 /* data.json */; };
+		25788AEE277EE52900A9EED8 /* style.html in Resources */ = {isa = PBXBuildFile; fileRef = 25788AEC277EE52900A9EED8 /* style.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		25788ADC277EE31800A9EED8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		25788AE7277EE3A900A9EED8 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
 		25788AE9277EE3B200A9EED8 /* Module.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Module.swift; sourceTree = "<group>"; };
+		25788AEB277EE52900A9EED8 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = data.json; path = "../../../../../Downloads/M5L3 Resources/data/data.json"; sourceTree = "<group>"; };
+		25788AEC277EE52900A9EED8 /* style.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = style.html; path = "../../../../../Downloads/M5L3 Resources/data/style.html"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		25788AE3277EE38200A9EED8 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				25788AEB277EE52900A9EED8 /* data.json */,
+				25788AEC277EE52900A9EED8 /* style.html */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -164,6 +170,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				25788ADD277EE31800A9EED8 /* Preview Assets.xcassets in Resources */,
+				25788AED277EE52900A9EED8 /* data.json in Resources */,
+				25788AEE277EE52900A9EED8 /* style.html in Resources */,
 				25788ADA277EE31800A9EED8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

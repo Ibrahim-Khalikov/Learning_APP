@@ -6,3 +6,23 @@
 //
 
 import Foundation
+
+struct Module : Decodable {
+    
+    var content: Content
+    var test: Test
+    
+}
+struct Content: Decodable {
+    var lesson : [Lesson]
+}
+struct Lesson: Decodable{
+    
+}
+struct Test: Decodable{
+    var question: [Question]
+    
+}
+struct Question: Decodable{
+    
+}
